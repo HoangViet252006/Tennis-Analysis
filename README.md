@@ -17,7 +17,7 @@ Here is my python source code. The following are the functions:
 ## How to Training
 
 ### Player detection 
-- You can use `weights_card.pt` to try model
+- You can use `yolov8x.pt` to try model
 
 ### Tennis detetion
 1. You click here [Robowflow Tennis ball Dataset](https://universe.roboflow.com/viren-dhanwani/tennis-ball-detection) to download the dataset
