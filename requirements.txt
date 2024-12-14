@@ -1,0 +1,7 @@
+numpy>=1.25.2
+pandas>=2.2.2
+matplotlib>=3.8.4
+ultralytics>=8.3.29
+torch>=2.0.0
+torchvision>=0.15.0
+tqdm>=4.66.5
