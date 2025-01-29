@@ -16,7 +16,7 @@ Here is my python source code. The following are the functions:
 
 ## How It Works
 <p align="center">
-  <img src="imgs/Idea_Tennis_Analysis.png">
+  <img src="imgs/Idea.png">
 </p>
 
 ## How to Training
@@ -24,7 +24,7 @@ Here is my python source code. The following are the functions:
 ### Player detection 
 - You can use `yolov8x.pt` to try model
 
-### Tennis detetion
+### Tennis detection
 1. You click here [Robowflow Tennis ball Dataset](https://universe.roboflow.com/viren-dhanwani/tennis-ball-detection) to download the dataset
 2. To detect small objects better, you should download the YOLOv5 dataset version.
 3. Run `train.py --img 640 --batch 8 --epochs 100 --data data.yaml --weights yolo5l6.pt`
