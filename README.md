@@ -14,6 +14,11 @@ Here is my python source code. The following are the functions:
   <img src="output_video/output_video.gif">
 </p>
 
+## How It Works
+<p align="center">
+  <img src="imgs/Idea_Tennis_Analysis.png">
+</p>
+
 ## How to Training
 
 ### Player detection 
