@@ -16,7 +16,7 @@ Here is my python source code. The following are the functions:
 
 ## How It Works
 <p align="center">
-  <img src="imgs/Idea.png">
+  <img src="imgs/Idea_Tennis_Analysis.png">
 </p>
 
 ## How to Training
