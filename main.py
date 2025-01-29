@@ -23,13 +23,14 @@ def main(args):
     video_frames = read_video(args.input_video_path)
 
     # detections
-    players = PlayerTracker('weights/yolov8x.pt')
-    player_detections = players.detection_frames(video_frames, False, 'tracker_stubs/player_detections.pkl')
-    balls = BallTracker('weights/tennis_weights.pt')
-    ball_detections = balls.detection_frames(video_frames, False, 'tracker_stubs/ball_detections.pkl')
-    ball_detections = balls.interpolate(ball_detections)
+    # players = PlayerTracker('weights/yolov8x.pt')
+    # player_detections = players.detection_frames(video_frames, False, 'tracker_stubs/player_detections.pkl')
+    # balls = BallTracker('weights/tennis_weights.pt')
+    # ball_detections = balls.detection_frames(video_frames, False, 'tracker_stubs/ball_detections.pkl')
+    # ball_detections = balls.interpolate(ball_detections)
     keypoints = Court_line('weights/court_line_weights.pt')
     keypoints_predict = keypoints.predict(video_frames[0])
+    return
     # choose player
     player_detections = players.filter_player(keypoints_predict, player_detections)
 
